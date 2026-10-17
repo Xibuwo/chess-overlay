@@ -22,8 +22,7 @@ Engines (any you want to use):
 
 ## Auto mode (default): 2D and 3D, no setup
 
-Tick **Auto-detect board**. It finds the checkerboard by itself, follows it when the camera moves
-(The Outlast Trials), works out which way White faces, and reads the game from pixels. It only needs
+Tick **Auto-detect board**. It finds the checkerboard by itself, follows it when the camera moves, works out which way White faces, and reads the game from pixels. It only needs
 to see the **starting position once** at the start of a game (or press *Reset game* on one). The
 game's own yellow/gold *last-move* highlight is used as an extra cue to find moves reliably.
 Requirements: borderless windowed game, board fully on screen at the start.
