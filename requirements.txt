@@ -1,0 +1,14 @@
+PyQt6>=6.6
+opencv-python>=4.9
+python-chess>=1.10
+mss>=9.0
+numpy>=1.26
+# optional, faster DXGI capture (set Capture = bettercam in the GUI)
+# bettercam>=1.0
+
+# Optional YOLO vision backend (Settings.vision_backend = "yolo", see README). NOT needed for the
+# default "classical" backend, which runs on the packages above only. Importing is lazy, so leaving
+# these out never breaks anything - without them (or without weights) the classical path is used.
+# ultralytics pulls in torch; for a GPU build install torch first from https://pytorch.org
+# ultralytics>=8.3
+# torch>=2.2
